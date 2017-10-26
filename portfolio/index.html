@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Portfolio Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
     <script src="https://use.fontawesome.com/fc82f8f294.js"></script>
   </head>
@@ -14,16 +16,25 @@
       </h1>
       <ul>
         <span class="nav_items">
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html">Contact</a></li>
-      </span>
-    </ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects &amp; Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </span>
+      </ul>
     </nav>
-    <div class="content">
+    <div class="background">
+      <img src="images/background2.jpg" alt="background">
+      <!-- ----- This is WIP.. Couldn't manage to make it work ---- -->
+      <!-- <div class="quote">
+        <h3>Step outside of your comfort zone.
+        <h3>Never Stop Learning.</h3>
+        <h3>Never stop growing.</h3>
+      </div> -->
+    </div>
       <!-- ------------------------ MAIN CONTENT ------------------ -->
+      <div class="content">
       <main>
-        <section class="about">
+        <section class="about" id="about">
           <h1>About</h1>
             <p>
               Sometime ago I heard in a TED conference something that would ultimately impact me - “shape your brain
@@ -39,8 +50,9 @@
             <p>
               Never thought 5 years later I would be enrolling in an opportunity do develop my interest more deeply at Sparta Global.
             </p>
+            <img src="images/ai.jpg" alt="artificial" width="100%">
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
           <h1>Courses &amp; Projects</h1>
           <ul>
             <li>Full Stack Web and Multiplatform Mobile App Development - Coursera</li>
@@ -48,32 +60,50 @@
                 <li>HTML, CSS &amp; Javascript</li>
                 <li>Front-End UI Frameworks and Tools: Bootstrap</li>
                 <li>Front-End JavaScript Frameworks: Angular</li>
-                <li><strike>Multiplatform Mobile App Development with Web Technologies: Ionic and Cordova</strike></li>
-                <li><strike>Multiplatform Mobile App Development with NativeScript</strike></li>
-                <li><strike>Server-side Development with NodeJS, Express and MongoDB</strike></li>
               </ul>
             <li>HTML, CSS, JavaScript - Free Code Camp</li>
             <li>JavaScript, Git, Ruby - CodeAcademy</li>
             <li>HTML, CSS &amp; JavaScript - London Academy of IT</li>
             <li>Computer Science - Stanford Online</li>
           </ul>
-        </section>
-        <section class="sources">
-          <h1>Sources</h1>
-          <ul>
-            <li><a href="www.freecodecamp.org"><img src="images/freeCodeCamp.jpg" alt="freecodecamp" width="150px"></a></li>
-            <li><a href="www.coursera.org"><img src="images/coursera.png" alt="coursera" width="150px"></a></li>
-            <li><a href="www.codeacademy.com"><img src="images/codeacademy.png" alt="codeacademy" width="150px"></a></li>
-            <li><a href="www.github.com"><img src="images/github.png" alt="github" width="150px"></a></li>
-            <li><a href="https://stackoverflow.com/"><img src="images/stackoverflow.jpg" alt="stackoverflow" width="150px"></a></li>
-          </ul>
+          <img src="images/skills.jpg" alt="skills" width="100%" class="skills">
+          <h1> Skills </h1>
+          <div class="row">
+            <div class="col-md-3"><img src="images/html.png" alt="html"></div>
+            <div class="col-md-3"><img src="images/css.png" alt="css"></div>
+            <div class="col-md-3"><img src="images/javascript.png" alt="javascript"></div>
+            <div class="col-md-3"><img src="images/bootstrap.png" alt="bootstrap"></div>
+            <div class="col-md-3"><img src="images/git.png" alt="git"></div>
+            <div class="col-md-3"><img src="images/angularjs.png" alt="angularjs"></div>
+            <div class="col-md-3"><img src="images/nodejs.png" alt="node"></div>
+            <div class="col-md-3"><img src="images/ruby.png" alt="ruby"></div>
+          </div>
 
+          <img src="images/teamwork.png" alt="teamwork" width="100%" class="teamwork">
+        </section>
+        <section class="contact" id="contact">
+          <h1>Contact</h1>
+          <ul>
+            <li>scarmo@spartaglobal.com</li>
+            <li>(+44) 07840873640 </li>
+            <li><a href="https://www.linkedin.com/in/soraiacarmo/"><img src="images/linkedicon.png" alt="linkedicon" class="linkedicon"></i></a></li>
+            <li><a href="https://github.com/coding-sue-true"><img src="images/githubicon.png" alt="githubicon" class="githubicon"></a></li>
+          </ul>
         </section>
       </main>
     </div>
     <!-- ------------------------ FOOTER CONTENT ------------------ -->
 
     <footer>
+      <section class="sources">
+        <ul>
+          <li><a href="www.freecodecamp.org"><img src="images/freeCodeCamp.jpg" alt="freecodecamp" width="150px"></a></li>
+          <li><a href="www.coursera.org"><img src="images/coursera.png" alt="coursera" width="150px"></a></li>
+          <li><a href="www.codeacademy.com"><img src="images/codeacademy.png" alt="codeacademy" width="150px"></a></li>
+          <li><a href="www.github.com"><img src="images/github.png" alt="github" width="150px"></a></li>
+          <li><a href="https://stackoverflow.com/"><img src="images/stackoverflow.jpg" alt="stackoverflow" width="150px"></a></li>
+        </ul>
+      </section>
       <p>
         &reg; Soraia Carmo
       </p>

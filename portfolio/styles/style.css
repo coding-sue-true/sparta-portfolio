@@ -2,39 +2,72 @@ body {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
+  font-size: 20px;
+  text-align: justify;
 }
 
-header {
+/*header {
   border: 1px solid black;
-  /*background-color: red;*/
-}
+}*/
 
-main {
-  padding: 20px;
+/*main {
   border: 1px solid black;
-}
+}*/
 
 .content {
   /*background-color: white;*/
   width: 800px;
   margin: auto;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
+}
+
+.contact ul li {
+  text-align: center;
+  list-style: none;
+  padding: 7px;
+}
+
+.contact ul li img {
+  width: 35px;
+  display: inline-block;
+}
+
+
+.background img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
 }
 
 a {
   text-decoration: none;
+  color: #7d8084;
+}
+
+section h1 {
+  text-align: center;
 }
 
 nav {
-  padding: 25px;
-  border: 1px solid black;
+  padding: 10px;
+  /*border: 1px solid black;*/
 }
 
 nav ul {
+    float: right;
+    padding-top: 29px;
+    font-size: 20px;
+}
+
+nav li {
   list-style: none;
   display: inline-block;
-  float: right;
   padding: 0 30px;
+}
+
+.contact ul{
+  padding: 0;
 }
 
 .sources li {
@@ -44,7 +77,6 @@ nav ul {
 }
 
 footer {
-  /*background-color: red;*/
   border: 1px solid black;
   text-align: center;
 }
@@ -53,7 +85,62 @@ nav h1 {
   display: inline-block;
 }
 
-/*.nav_items {
-  float: right;
+footer ul li {
+  padding-right: 30px;
+}
 
+
+footer p {
+  padding: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:  none;
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+}
+
+.col-md-3 {
+  padding: 30px;
+}
+
+.col-md-3 img {
+  width: 100px;
+}
+
+.projects {
+  padding: 40px 0;
+}
+
+/*.row {
+  padding: 40px 0;
+}*/
+
+.contact {
+  padding: 0 0 40px 0;
+}
+
+.skills {
+  padding: 40px 0;
+}
+
+.teamwork {
+  padding: 40px 0;
+}
+/*.quote{
+  width: 100%;
+  position: relative;
+  margin-top: -40%;
+}
+
+.quote h3{
+  text-align: center;
 }*/
