@@ -54,9 +54,8 @@ nav {
 }
 
 nav ul {
-    float: right;
-    padding-top: 29px;
-    font-size: 20px;
+  float: right;
+  font-size: 20px;
 }
 
 nav li {
@@ -76,8 +75,13 @@ nav li {
 }
 
 footer {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   text-align: center;
+}
+
+hr {
+  border: 1px solid #e6e6e6;
+  width: 75%;
 }
 
 nav h1 {
@@ -118,10 +122,6 @@ a:hover {
   padding: 40px 0;
 }
 
-/*.row {
-  padding: 40px 0;
-}*/
-
 .contact {
   padding: 0 0 40px 0;
 }
@@ -133,6 +133,53 @@ a:hover {
 .teamwork {
   padding: 40px 0;
 }
+
+.html {
+  text-align: center;
+}
+
+.css {
+  text-align: center;
+}
+
+.javascript {
+  text-align: center;
+}
+
+.bootstrap {
+  text-align: center;
+}
+
+.git {
+  text-align: center;
+}
+
+.angular {
+  text-align: center;
+}
+
+.node {
+  text-align: center;
+}
+
+.ruby {
+  text-align: center;
+}
+
+.progress{
+  height: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #eee;
+  margin-top: 15px;
+  border-radius: 20px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  box-shadow: 2px -1px 7px #b7b333eb;
+}
+
+/*.progress-bar-stripped.html {
+  width: 90%;
+}*/
 /*.quote{
   width: 100%;
   position: relative;
@@ -171,7 +218,7 @@ a:hover {
   body {
     font-size: 25px;
   }
-  
+
   .background {
     display: hidden;
   }
